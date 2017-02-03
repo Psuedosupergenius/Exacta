@@ -1,41 +1,5 @@
-This is a template project for Android Studio that allows you to create an android webview application in minutes. You can use it to create a simple app for your website or as a starting point for your HTML5 based android app.
-
-### Getting started
-
-1. [Install Android Studio](http://developer.android.com/sdk/index.html), make sure that the [Android SDK Tools](http://developer.android.com/sdk/index.html#Other) are properly installed and install the [appropriate packages](http://developer.android.com/sdk/installing/adding-packages.html) for the platforms you want to target.
-
-2. [Download](https://github.com/slymax/webview/archive/master.zip) or clone this repository and import it into Android Studio.
-
-### Using a remote source
-
-If you want to create an app that displays the contents of a remote website
-
-1. uncomment **line 31** in `MainActivity.java` and change `http://example.com` to match your remote source
-
-	```
-	mWebView.loadUrl("http://example.com");
-	```
-
-2. uncomment **line 34**
-
-	```
-	mWebView.setWebViewClient(new MyAppWebViewClient());
-	```
-
-3. open the `MyAppWebViewClient.java` file and replace `example.com` in **line 12** with your custom url
-
-	```
-	if (Uri.parse(url).getHost().endsWith("example.com")) {
-	```
-
-### Using a local source
-
-If you want to create a local HTML5 android app
-
-1. uncomment **line 37** in `MainActivity.java`
-
-	```
-	mWebView.loadUrl("file:///android_asset/www/index.html");
-	```
-
-2. replace the boilerplate website in `src/main/assets/www/` with your own HTML, CSS and JavaScript files
+This is an Android Studio project that built an Android app using the Webview template by Slymax. 
+This app asks the user to input the morning line odds of the horses in the field separated by commas and then enter the Toteboard odds of the horses in the field separated by commas.
+Both sets of odds must be input and converted from fractions to decimals.  Fore example an odds of "6/5" would be input as "1.2".
+The app will give the best suggested exacta box wagers for the users (For entertainment purposes only). The numbers that appear are the number corresponding to the entry list order of the Morning Line and Toteboard odds.  If a horse was scratched, that needs to be taken into account by the USER.  
+I am not responsible for use of this app and/or program for purposes other than personal entertainment.  Uses for other purposes are at your own risk.
