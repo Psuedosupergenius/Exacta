@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kylelitz/Downloads/webview-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1066b7883b028e2e7c1dd4ba471e09bd017583ee">
+        <dex dex="/Users/kylelitz/Downloads/webview-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0b168bbf4ab50449900f580c46ee43a194de4452/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kylelitz/Downloads/webview-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6350ca31ac4cc26aa2b58526a12aeaccb0022b09">
+        <dex dex="/Users/kylelitz/Downloads/webview-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_29d3fd8c06c064a665c1faffedcadc5f2d371b5d/classes.dex" />
+    </item>
+
+</items>
